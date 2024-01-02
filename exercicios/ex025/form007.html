@@ -12,13 +12,18 @@
         <p>
             <label for="iest">Estado</label>
             <select name="estado" id="iest">
-                <option value="MG">Minas Gerais</option>
-                <option value="RJ">Rio de Janeiro</option>
-                <option value="SP">São Paulo</option>
+                <option value="" selected>-- Escolha --</option>
+                <optgroup label="Região Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
 
-                <option value="MA">Maranhão</option>
-                <option value="PE">Pernambuco</option>
-                <option value="RN">Rio Grande do Norte</option>
+                <optgroup label="Região Nordeste">
+                        <option value="MA">Maranhão</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                </optgroup>
             </select>
         </p>
 
